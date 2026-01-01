@@ -89,4 +89,5 @@ print("MAE:", mean_absolute_error(y_test, y_pred))
 
 # ---------------- SAVE MODEL ----------------
 pickle.dump(pipeline, open("model.pkl", "wb"))
-print("✅ model.pkl saved successfully")
+print(" model.pkl saved successfully")
+
